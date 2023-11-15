@@ -1,0 +1,53 @@
+= Exercice 26 : n pair avec While
+
+== Description
+
+Écrivez un programme pour afficher tous les nombres pairs de 1 à n en utilisant la boucle while.
+
+== Prérequis
+
+== Déroulement
+
+Données d'entrée :
+
+15
+
+Données de sortie :
+
+0
+2
+4
+6
+8
+10
+12
+14
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+== Correction
+
+[source,javascript]
+----
+function exercice26(n)
+{
+    let compteur = 1
+
+    while(compteur <= n)
+    {
+        if(compteur % 2 == 0)
+        {
+            console.log(compteur)
+        }
+        compteur++
+    }
+}
+
+exercice26(30)
+----
+
+

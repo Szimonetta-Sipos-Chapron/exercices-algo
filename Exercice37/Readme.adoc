@@ -1,0 +1,52 @@
+= Exercice 37 : Money money
+
+Développer un programme qui demande à l’utilisateur de saisir une série de chèques.
+Pour chaque chèque, demander le numéro puis le montant.
+Si l’utilisateur introduit la valeur 0 à la demande du numéro, cela signifie qu’il n’y a plus de
+chèques.
+Le programme doit afficher :
+- le nombre de chèques introduits
+- le montant total des chèques
+- la moyenne des montants
+- le nombre de chèques dont le montant est inférieur à 200€
+- le montant total de ces chèques
+- le nombre de chèques dont le montant est supérieur ou égal à 200€
+- le montant total de ces chèques
+- le numéro du chèque dont le montant est le plus petit
+- le montant de ce chèque
+- le numéro du chèque dont le montant est le plus grand
+- le montant de ce chèque
+
+== Correction JS
+
+[source,javascript]
+----
+let numero = -1
+let montant = 0
+let montants = []
+
+//- le nombre de chèques introduits
+let nombre = 0
+//- le montant total des chèques
+let total = 0
+//- le nombre de chèques dont le montant est inférieur à 200€
+let nombreInf200 = 0
+
+while(numero != 0)
+{
+    numero = Number(prompt("numero ?"))
+    montant = Number(prompt("montant ?"))
+
+    nombre++
+    total += montant
+
+    if(montant < 200) {
+        nombreInf200++
+    }
+}
+
+console.log("le nombre de chèques introduits : " + nombre)
+console.log("le montant total des chèques : " + total)
+console.log("Moyenne des montants : " + (total/nombre))
+console.log("le nombre de chèques dont le montant est inférieur à 200€ " + nombreInf200)
+----

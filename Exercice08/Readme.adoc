@@ -1,0 +1,40 @@
+= Exercice 08 : n pair
+
+== Description
+
+Écrivez un programme pour afficher tous les nombres pairs de 1 à n en utilisant la boucle for.
+
+n etant une valeur saisie par l'utilisateur.
+
+Testez la fonction.
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Les fonctions
+* La boucle for
+
+== Déroulement
+
+Données d'entrée :
+
+15
+
+Données de sortie :
+
+0
+2
+4
+6
+8
+10
+12
+14
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min

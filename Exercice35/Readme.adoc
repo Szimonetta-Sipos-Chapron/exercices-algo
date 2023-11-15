@@ -1,0 +1,27 @@
+= Exercice 35 : Melangeur
+
+== Description
+
+Ecrire une fonction melangerTexte qui mélange les lettres (sauf la première et
+la dernière) de chaque mot d'une phrase et qui affiche la phrase avec les mots mélangés.
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Les fonctions
+* La boucle for
+* Les tableaux
+
+== Déroulement
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+== Correction
+
+

@@ -1,0 +1,31 @@
+= Exercice 22 : Des tableaux et des villes
+
+== Description
+
+Créez un tableau qui contient le nom de 5 villes.
+
+Affichez ces cinq villes dans les logs en utilisant les index de chaque element.
+
+== Prérequis
+
+Avoir des connaissances sur :
+
+* Les variables
+* Les tableaux
+
+== Déroulement
+
+RAS
+
+== Correction
+
+[source,javascript]
+----
+let tableau = ['paris', 'tokyo','rome','vienne', 'Camberra']
+
+console.log(tableau[0])
+console.log(tableau[1])
+console.log(tableau[2])
+console.log(tableau[3])
+console.log(tableau[4])
+----

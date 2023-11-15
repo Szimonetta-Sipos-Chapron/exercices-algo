@@ -1,0 +1,66 @@
+= Exercice 30 : Objet bibliothèque
+
+== Description
+
+Un objet permet de stocker de l'information de manière structurée.
+
+Créez un objet qui représente une biblihoteque.
+
+Les informations necessaires :
+
+* nom de la bibliotheque
+* infos sur les salariés
+ ** nom
+ ** prenom
+ ** prenoms de ses enfants
+* Thematique des armoires
+* nom des livres dans chaque armoire
+* auteur des livres de chaque armoire
+
+2 salariés
+2 armoires
+2 livres par armoires
+
+== Prérequis
+
+== Déroulement
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+== Correction JS
+
+[source,javascript]
+----
+  let bibliotheque2 = {
+    nom: "Thebiblio",
+    salairies: [{nom:"Hernandez",prenom:"theo",prenomEnfants:["tom","alyssa"]},{nom:"Pogba",prenom:"Paul",prenomEnfants:["tom"]}],
+    thematiqueArmoire: ["horreur","fiction" ],
+    livres : [
+        {
+            nom : "lpp",
+            auteur : "antoine",
+            armoire: "armoire1"
+        },
+        {
+            nom : "lpp2",
+            auteur : "antoine",
+            armoire: "armoire1"
+        },
+        {
+            nom : "lpp3",
+            auteur : "antoine",
+            armoire: "armoire2"
+        },
+        {
+            nom : "lpp4",
+            auteur : "antoine",
+            armoire: "armoire2"
+        },
+    ]
+  }
+  ----
+  

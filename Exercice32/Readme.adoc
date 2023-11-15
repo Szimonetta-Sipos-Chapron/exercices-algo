@@ -1,0 +1,55 @@
+= Exercice 32 : Palindrome
+
+== Description
+
+Créez une fonction qui attend une chaine de caractere en parametre d'entree.
+
+La fonction retourne true si la chaine de caracteres est un palindrome
+
+La fonction retourne false si la chaine de caracteres est un palindrome
+
+Testez la fonction
+
+Liste de palindrome :
+
+* aa, un genre de capres de la famille des Orchidaceae et un type de lave
+* ada, un langage de programmation en informatique
+* aga, trombe d'eau, dignitaire musulman
+* alla, du verbe aller
+* ana, recueil de bons mots
+* anona, arbre fruitier de l'Amérique tropicale
+* ara, espèce de perroquet d'Amérique tropicale
+* aviva, passé simple du verbe aviver
+* axa, passé simple du verbe axer
+* bob, un chapeau mou, ou familièrement un bobsleigh
+* coloc
+* elle
+* ère
+* erre, terme de marine ou présent du verbe errer
+* essayasse, subjonctif imparfait du verbe essayer
+* esse, un crochet en forme de S
+* été
+* eue, participe passé du verbe avoir
+* gag, une histoire drôle
+* ici
+* kayak
+* la mariée ira mal
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Les fonctions
+* La boucle for
+* Les tableaux
+
+== Déroulement
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 30min
+* *Avancé* : 5min
+
+

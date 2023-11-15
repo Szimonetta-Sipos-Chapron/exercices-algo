@@ -1,0 +1,50 @@
+= Exercice 02 : Divisible par 3 ou 13
+
+== Description
+
+Écrivez un programme pour vérifier si un nombre est divisible par 3 et 13 ou non, en utilisant if-else.
+
+Le nombre doit être saisi par l'utilisateur.
+
+Le résultat doit être affiché dans la console.
+
+Pour savoir si un nombre est divisible par un autre il faut utiliser l'opérateur mathématique modulo '%'
+
+4%2==0 donc 4 est divisible par 2
+26%13==0 donc 26 est divisible par 13
+26%12==2 donc 26 n'est pas divisible par 12
+9%3 == 0 donc 9 est divisible par 3
+
+[source,javascript]
+----
+let uneValeur = 6
+
+if(uneValeur % 2 == 0)
+{
+    alert("Cette valeur est divisible par 2")
+}
+----
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Modulo
+
+== Déroulement
+
+Données d'entrée :
+
+2
+
+Données de sortie :
+
+false
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+

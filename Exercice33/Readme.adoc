@@ -1,0 +1,72 @@
+= Exercie 33 : Chiffrement d’une chaîne de caractères en fonction d’une clé
+
+== Description
+
+Mettre en place un programme permettant de chiffrer ou déchiffrer une chaîne saisie en fonction d’une clé saisie sur 8
+caractères maximum.
+
+Pour chiffrer la chaîne de caractères saisie, nous utilisons un tableau dans lequel sont affichés autant d’alphabets qu'il y
+a de lettres (26) et qui chiffre le texte à l’aide d’une clé de la manière suivante :
+on cherche la valeur correspondant à la colonne i et la ligne j où i est la 1ere lettre du mot en clair et j la 1ere lettre de la
+clé. La lettre ainsi trouvée est la 1ere lettre du mot chiffré.
+On procède de même pour toutes les lettres du mots en clair.
+Lorsque la dernière lettre de la clé a été utilisée, on utilise de nouveau la 1ere et ainsi de suite.
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Les fonctions
+* La boucle for
+* Les tableaux
+
+== Déroulement
+
+Voyons un exemple:
+
+Texte en clair: INFORMATIQUE
+Clé: INRACI
+Cryptogramme: QAWOTUIGZQWM
+
+car ‘q’ est la lettre qui se trouve à l’intersection du ‘I’ horizontal du mot en clair et du ‘I’ vertical de la clé INRACI.
+
+                           Mot en clair ==>
+
+          A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+          A A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+          B B C D E F G H I J K L M N O P Q R S T U V W X Y Z A
+          C C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
+          D D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+Clé       E E F G H I J K L M N O P Q R S T U V W X Y Z A B C D
+ |        F F G H I J K L M N O P Q R S T U V W X Y Z A B C D E
+ |        G G H I J K L M N O P Q R S T U V W X Y Z A B C D E F
+ V        H H I J K L M N O P Q R S T U V W X Y Z A B C D E F G
+          I I J K L M N O P Q R S T U V W X Y Z A B C D E F G H
+          J J K L M N O P Q R S T U V W X Y Z A B C D E F G H I
+          K K L M N O P Q R S T U V W X Y Z A B C D E F G H I J
+          L L M N O P Q R S T U V W X Y Z A B C D E F G H I J K
+          M M N O P Q R S T U V W X Y Z A B C D E F G H I J K L
+          N N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
+          O O P Q R S T U V W X Y Z A B C D E F G H I J K L M N
+          P P Q R S T U V W X Y Z A B C D E F G H I J K L M N O
+          Q Q R S T U V W X Y Z A B C D E F G H I J K L M N O P
+          R R S T U V W X Y Z A B C D E F G H I J K L M N O P Q
+          S S T U V W X Y Z A B C D E F G H I J K L M N O P Q R
+          T T U V W X Y Z A B C D E F G H I J K L M N O P Q R S
+          U U V W X Y Z A B C D E F G H I J K L M N O P Q R S T
+          V V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
+          W W X Y Z A B C D E F G H I J K L M N O P Q R S T U V
+          X X Y Z A B C D E F G H I J K L M N O P Q R S T U V W
+          Y Y Z A B C D E F G H I J K L M N O P Q R S T U V W X
+          Z Z A B C D E F G H I J K L M N O P Q R S T U V W X Y
+
+          == Attendus
+
+* *Essentiel* : 2 h 
+* *Attendu*   : 30 min
+* *Avancé*    : 20 min
+
+== Correction
+
+

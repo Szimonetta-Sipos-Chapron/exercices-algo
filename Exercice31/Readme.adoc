@@ -1,0 +1,81 @@
+= Exercice 31 : Voyage voyage
+
+== Description
+
+1. Créez un tableau contenant les villes citées ci dessous :
+
+• Lille
+• Lens
+• Amiens
+• Rouen
+• Caen
+• Rennes
+• Nantes
+• Niort
+• Bordeaux
+• Bayonne
+
+2. Créez une fonction affichant le contenu du tableau créé précedement.
+3. Créez une fonction affichant les villes commencant par la lettre A du tableau créé précedemment.
+4. Créez une fonction qui modifie le contenu du tableau en ajoutant un numéro aléatoire à la fin du nom de chaque ville.
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Les fonctions
+* La boucle for
+* Les tableaux
+
+== Déroulement
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+== Correction JS
+
+[source,javascript]
+----
+//Point 1
+tableau = 
+["Lille", "Lens", "Amiens", "Rouen",
+ "Caen", "Rennes", "Nantes", "Niort", "Bordeaux", "Bayonne"]
+
+ //Point 2
+function afficherTableau()
+{
+    for(const ville of tableau)
+    {
+        console.log(ville)
+    }
+}
+afficherTableau()
+
+//Point 3
+function afficherVillesAvecA()
+{
+    for(const ville of tableau)
+    {
+        if(ville.substring(0,1) == "A")
+        {
+            console.log(ville)
+        }
+    }
+}
+afficherVillesAvecA()
+
+//Point 4
+function modifierTableau()
+{
+    for(let i = 0; i<tableau.length ; i++ )
+    {
+        tableau[i] = tableau[i] + Math.random() 
+    }
+}
+modifierTableau()
+afficherTableau()
+----

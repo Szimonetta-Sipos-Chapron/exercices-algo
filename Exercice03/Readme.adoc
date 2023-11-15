@@ -1,0 +1,29 @@
+= Exercice 03 : Pair ou impair
+
+== Description
+
+Écrivez un programme pour vérifier si un nombre est pair ou impair en utilisant if-else.
+
+== Prérequis
+
+Avoir des connaissances sur :
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+
+== Déroulement
+
+Données d'entrée :
+
+2
+
+Données de sortie :
+
+Pair
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min

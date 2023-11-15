@@ -1,0 +1,67 @@
+= Exercice 36 : La meilleure somme
+
+== Niveau
+
+Trés très difficile
+
+== Description
+
+Un ami vient de vous envoyer une opération par email : 1234=46
+
+Ca n'a aucun sens ! Mais après une analyse approfondie, vous comprenez que c'est que la touche "+" de son clavier est cassée. En
+effet, votre ami voulait vous envoyer 12+34=46
+
+Sachant que votre ami doit vous transmettre prochainement d'autres opérations, vous décidez de réaliser un
+programme permettant de déterminer où les opérateurs d'addition doivent être placés pour rendre l'opération correcte.
+
+Seule la partie gauche de l'opération peut nécessiter l'ajout d'opérateurs. La partie de droite sera toujours le nombre
+entier fourni initialement.
+
+Entrée de la fonction
+
+Votre fonction prendra en entrée :
+
+• Une première ligne contenant la partie gauche de l'équation, représentée sous la forme d'un nombre entier
+comprenant entre 1 et 19 chiffres
+
+• Une deuxième ligne contenant la partie droite de l'opération, représentée sous la forme d'un nombre entier
+comprenant entre 1 et 19 chiffres
+
+Sortie de la fonction
+
+Votre fonction doit retourner l'opération corrigée, en ajoutant si nécessaire des opérateurs "+" dans la partie gauche
+de l'équation. L'opération affichée ne doit pas contenir d'espaces.
+Les chiffres de la partie gauche doivent être affichés dans le même ordre que l'ordre initial.
+ex. 1+2+3+4=10
+
+== Déroulement
+
+=== Exemple 01
+
+==== Entrée
+
+1234
+46
+
+==== Sortie
+
+12+34
+
+=== Exemple02
+
+==== Entrée
+
+8465027591
+353
+
+== Sortie
+
+8+4+6+50+275+9+1
+
+== Attendus
+
+* *Essentiel* : 35h 
+* *Attendu* : 8h
+* *Avancé* : 4h
+
+== Correction JS

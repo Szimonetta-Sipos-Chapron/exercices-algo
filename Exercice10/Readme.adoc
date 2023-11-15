@@ -1,0 +1,34 @@
+= Exercice 10 : Somme des entiers
+
+== Description
+
+Écrivez un programme pour trouver la somme de tous les nombres naturels entre 1 et n en utilisant la boucle for.
+
+n etant saisie par l'utilisateur.
+
+Testez la fonction.
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* La boucle for
+
+== Déroulement
+
+Données d'entrée :
+
+5
+
+Données de sortie :
+
+15
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+

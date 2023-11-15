@@ -1,0 +1,29 @@
+= Exercice 29 : Objet continent
+
+== Description
+
+Un objet permet de stocker de l'information de manière structurée.
+
+Créez un objet qui représente un continent.
+
+Les informations necessaires :
+
+* nom du continent
+* oceans frontaliers
+* liste des pays
+    ** pour chaque pays on aimerait :
+        *** Nombre d'habitants
+        *** Couleurs du drapeau
+
+== Prérequis
+
+== Déroulement
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+== Correction
+

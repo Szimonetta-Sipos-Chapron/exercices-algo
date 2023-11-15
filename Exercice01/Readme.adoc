@@ -1,0 +1,33 @@
+= Exercice 01 : Le maximum
+
+== Description
+
+Écrivez un programme pour trouver le plus grand nombre entre trois nombres en utilisant une if-else ou if imbriquée.
+
+Demandez à l'utilisateur de saisir les nombres.
+
+Prenez en compte la possibilité que les nombres saisis peuvent être égaux.
+
+== Prérequis
+
+Avoir des connaissances sur :
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+
+== Déroulement
+
+Données d'entrée :
+
+17 12 16
+
+Données de sortie :
+
+Le maximum est : 17
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min

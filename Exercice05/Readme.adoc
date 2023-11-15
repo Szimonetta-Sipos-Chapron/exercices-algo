@@ -1,0 +1,22 @@
+= Exercice 05 : Switch
+
+== Description
+
+Écrivez un programme pour entrer le numéro du jour de la semaine (1-7) et affichez le nom du jour de la semaine correspondant en utilisant if-else.
+
+== Prérequis
+
+Avoir des connaissances sur :
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* if-else
+
+== Déroulement
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min

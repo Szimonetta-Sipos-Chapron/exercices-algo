@@ -1,0 +1,67 @@
+= Exercice 25 : n entier inversé avec While
+
+== Description
+
+Écrivez un programme pour afficher tous les nombres entiers en sens inverse de n à 1 en utilisant la boucle while.
+
+n etant un parametre d'entrée de la fonction
+
+Testez la fonction.
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Les fonctions
+* La boucle for
+
+== Déroulement
+
+Données d'entrée :
+
+5
+
+Données de sortie :
+
+5
+4
+3
+2
+1
+0
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+[source,javascript]
+----
+/**
+ * Pour info
+ * 
+ * i++ : j'ajoute 1 à la valeur de i
+ * i-- : j'enlève 1 à la valeur de i
+ * 
+ * Fonction permettant d'afficher des entiers de 1 à n en sens inverse
+ * 
+ * n est le parametre d'entrée
+ */
+function exercice25(n)
+{
+let compteur = n
+
+    while(compteur > 0)
+    {
+        console.log(compteur)
+        compteur--
+    }
+}
+
+exercice25(10)
+
+//exercice25(Number(prompt("Entrer un chiffre")))
+----
+

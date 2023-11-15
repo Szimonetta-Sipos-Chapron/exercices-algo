@@ -1,0 +1,56 @@
+= Exercice 24 : n entier ave While
+
+== Description
+
+Écrivez une fonction pour afficher tous les nombres entiers de 1 à n en utilisant la boucle while.
+
+n etant un parametre d'entrée de la fonction.
+
+Testez la fonction.
+
+== Prérequis
+
+== Déroulement
+
+Données d'entrée :
+
+5
+
+Données de sortie :
+
+1
+2
+3
+4
+5
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+== Correction
+
+[source,javascript]
+----
+/**
+ * Fonction permettant d'afficher des entiers de 1 à n
+ * 
+ * n est le parametre d'entrée
+ */
+function exercice24(n)
+{
+    let compteur = 1
+
+    while(compteur <= n)
+    {
+        console.log(compteur)
+        compteur++
+    }
+}
+
+exercice24(10)
+
+//exercice6(Number(prompt("Entrer un chiffre")))
+----

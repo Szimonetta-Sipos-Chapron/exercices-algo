@@ -1,0 +1,50 @@
+= Exercice 28 : Somme des entiers avec While
+
+== Description
+
+Écrivez un programme pour trouver la somme de tous les nombres entiers entre 1 et n en utilisant la boucle while.
+
+== Prérequis
+
+== Déroulement
+
+Données d'entrée :
+
+5
+
+Données de sortie :
+
+15
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+== Correction
+
+[source,javascript]
+----
+function exercice28(n)
+{
+    //Cette variable permet de savoir ou on en est dans le nombre d'itération
+    //Elle permet aussi d'avoir la valeur de chaque itération en 1 et n
+    let compteur = 1
+    //Somme permet de stocker la somme des différentes valeurs de compteur
+    let somme = 0
+
+    //Tant que le compteur est inferieur à n
+    //alors j'execute les instructions entre accolades
+    while(compteur <= n)
+    {
+        somme = somme + compteur
+        console.log(compteur)
+        compteur++
+    }
+    console.log("Somme = " + somme)
+}
+
+exercice28(10)
+----
+

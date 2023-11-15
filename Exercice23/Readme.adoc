@@ -1,0 +1,48 @@
+== Exercice 13 : Suite logique (FACULTATIF)
+
+== Niveau 
+
+Difficile
+
+== Description
+
+1
+11
+21
+1211
+111221
+312211
+
+1 - Donnez la suite de cette suite de chiffre : ______________________
+
+2 - Une fois avoir trouvé, mettez en place l'algorithme permettant de continuer cette suite à une profondeur de 10.
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Les fonctions
+* La boucle for
+
+== Déroulement
+
+1
+11
+21
+1211
+111221
+312211
+?
+?
+?
+?
+
+== Attendus
+
+* *Essentiel* : 8 h 
+* *Attendu* : 1 h
+* *Avancé* : 20 min
+
+== Correction
+

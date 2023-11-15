@@ -1,0 +1,35 @@
+= Exercice 06 : n entier
+
+== Description
+
+Écrivez un programme pour afficher tous les nombres entiers de 1 à n en utilisant la boucle for.
+
+n etant une valeur saisie par l'utilisateur
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* La boucle for
+
+== Déroulement
+
+Données d'entrée :
+
+5
+
+Données de sortie :
+
+0
+1
+2
+3
+4
+5
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min

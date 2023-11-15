@@ -1,0 +1,38 @@
+= Exercice 34 : Echequier
+
+== Description
+
+Sur chaque case d'un échiquier, nous mettons 2 fois le nombre de grains de riz présents sur la case précédente (avec 1
+grain sur la première case)
+
+Écrire une fonction qui calcule la totalité des grains de riz sur l’échiquier.
+
+== Prérequis
+
+* Les variables
+* Les fonctions
+* La boucle for
+
+== Déroulement
+
+== Attendus
+
+* *Essentiel* : 1h 
+* *Attendu* : 15 min
+* *Avancé* : 5 min
+
+== Correction
+
+
+let nbGrainsDeRiz = 1
+
+let total = 0
+
+for(let i = 1; i <= 64 ; i++)
+{
+    total += nbGrainsDeRiz
+    console.log("Case " + i + " : " + nbGrainsDeRiz)
+    nbGrainsDeRiz = nbGrainsDeRiz * 2
+}
+
+console.log("Total : " + total)
