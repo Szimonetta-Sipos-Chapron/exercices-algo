@@ -26,27 +26,10 @@ Avoir des connaissances sur :
 (Données saisies au clavier)
 Données d'entrée :
 
-15 grootu
+Groot 15 
 
 (Données retournées par la fonction)
 Données de sortie :
 
-Il était une fois un monstre qui s'appelé grootu et qui avait 15 enfants.
-
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min
-
-== Correction JS
-
-[source,javascript]
-----
-function getHistoire(quantite,nom) {
-    return `Il était une fois un monstre qui s'appelé ${nom} et qui avait ${quantite} enfants.`
-}
-
-alert(getHistoire(50,"Gromit"))
-----
+Il était une fois un monstre qui s'appelé Groot et qui avait 15 enfants.
 

@@ -25,10 +25,4 @@ Données de sortie
 Les éléments du tableau source sont : 3, 7, 4, 9, 8
 Les éléments du tableau dest sont : 3, 7, 4, 9, 8
 
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min
-
 
