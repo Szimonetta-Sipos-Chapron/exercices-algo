@@ -25,10 +25,4 @@ Données de sortie
 Premier plus grand : 9
 Deuxième plus grand : 8
 
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min
-
 

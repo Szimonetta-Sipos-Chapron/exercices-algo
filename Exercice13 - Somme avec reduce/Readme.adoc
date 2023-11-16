@@ -1,8 +1,8 @@
-= Exercice 11 : Remplir un tableau
+= Exercice 13 : Somme d'un tableau
 
 == Description
 
-Écrivez un programme pour déclarer et initialiser un tableau, puis saisissez ses éléments à partir de l'utilisateur et affichez le tableau.
+Écrire un programme pour déclarer un tableau, puis saisir ses éléments à partir de l'utilisateur et trouver la somme des éléments du tableau
 
 == Prérequis
 
@@ -22,12 +22,6 @@ Elément 4 : 9
 Elément 5 : 8
 
 Données de sortie
-3 7 4 9 8
-
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min
+la somme = 31
 
 

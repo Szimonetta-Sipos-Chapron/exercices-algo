@@ -25,10 +25,4 @@ Données de sortie
 Nombre d'éléments pairs : 2
 Nombre d'éléments impairs : 3
 
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min
-
 

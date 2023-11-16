@@ -24,10 +24,4 @@ Elément 5 : 8
 Données de sortie
 -7 , -9
 
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min
-
 

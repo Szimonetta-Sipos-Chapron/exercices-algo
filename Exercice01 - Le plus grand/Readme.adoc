@@ -1,4 +1,4 @@
-= Exercice 01 : Le 40plus grand
+= Exercice 01 : Le plus grand
 
 == Description
 
