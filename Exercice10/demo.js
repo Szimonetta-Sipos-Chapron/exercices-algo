@@ -1,14 +1,14 @@
-let n = Number(prompt("Valeur ?"))
+let n = Number(prompt("Saisissez un nombre : "));
 
-let somme = 0
+let sum = 0;
 
 for(let index = 1; index <= n ; index++)
 {
-    console.log("Je lis : " + index)
+    console.log("Je suis à : " + index)
 
-    somme = somme + index
+    sum = sum + index
 
-    console.log("Ma somme est egale à  : " + somme)
-}
+    console.log("Ma somme est égale à  : " + sum)
+};
 
-console.log("La SOMME FINALE EST " + somme)
+console.log("LA SOMME FINALE EST : " + sum);

@@ -1,8 +1,8 @@
-let unNombre = Number(prompt("Saisissez un nombre"));
+let randomNumber = Number(prompt("Saisissez un nombre : "));
 
-if(unNombre % 2 == 0)
+if(randomNumber % 2 == 0)
 {
-    console.log("C'est un nombre pair")
+    console.log("C'est un nombre pair.")
 }else{
-    console.log("Ce nombre est impair.")
-}
+    console.log("C'est un nombre impair.")
+};

@@ -1,34 +1,18 @@
-const nombre1 = Number(prompt("1er nombre ?"))
+const number1 = Number(prompt("1er nombre ?"));
 
-const nombre2 = Number(prompt("2eme nombre ?"))
+const number2 = Number(prompt("2eme nombre ?"));
 
-const nombre3 = Number(prompt("3eme nombre ?"))
+const number3 = Number(prompt("3eme nombre ?"));
 
-
-if(nombre1 >= nombre2)
+if (number1 >= number2 && number1 >= number3)
 {
-    if(nombre1 >= nombre3)
-    {
-        console.log("Le maximum est " + nombre1)
-    }else{
-        console.log("Le maximum est " + nombre3)
-    }
-}else{
-    if(nombre2 >= nombre3)
-    {
-        console.log("Le maximum est " + nombre2)
-    }else{
-        console.log("Le maximum est " + nombre3)
-    }
+    console.log("Le plus grand nombre est : " + number1)
 }
-
-if (nombre1 >= nombre2 && nombre1 >= nombre3) 
+else if (number2 >= number1 && number2 >= number3)
 {
-    console.log("le maximum est : " + nombre1)
+    console.log("Le plus grand nombre est : " + number2)
 }
-else if (nombre2 >= nombre1 && nombre2 >= nombre3) {
-    console.log("le maximum est : " + nombre2)
-}
-else  {
-    console.log("le maximum est : " + nombre3)
-}
+else 
+{
+    console.log("Le plus grand nombre est : " + number3)
+};

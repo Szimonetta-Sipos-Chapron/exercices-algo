@@ -1,16 +1,16 @@
-const uneLettre = String(prompt("Saisissez une lettre de l'aphabet"));
+const randomLetter = String(prompt("Saisissez une lettre de l'aphabet : "));
 
-const lettreMinuscule = uneLettre.toLocaleLowerCase();
+const lowercaseLetter = randomLetter.toLowerCase();
 
 if (
-    lettreMinuscule == 'a' || 
-    lettreMinuscule == 'e' || 
-    lettreMinuscule == 'i' || 
-    lettreMinuscule == 'o' ||
-    lettreMinuscule == 'u' ||
-    lettreMinuscule == 'y' )
-     {
+   lowercaseLetter == 'a' || 
+   lowercaseLetter == 'e' || 
+   lowercaseLetter == 'i' || 
+   lowercaseLetter == 'o' ||
+   lowercaseLetter == 'u' ||
+   lowercaseLetter == 'y' )
+      {
         console.log("Cette lettre est une voyelle.")
-     }else{
+      }else{
         console.log("Cette lettre est une consonne.")
-     }
+      };

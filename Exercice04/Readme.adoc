@@ -26,9 +26,3 @@ a
 Données de sortie :
 
 Voyelle
-
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min

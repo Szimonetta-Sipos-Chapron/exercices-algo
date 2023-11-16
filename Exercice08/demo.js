@@ -1,10 +1,10 @@
-const n = prompt("Valeur ?")
+const n = Number(prompt("Saisissez un nombre : "));
 
 
-for(let index = 1; index <= n;index++)
+for(let index = 1; index <= n; index++)
 {
-    if(index%2 == 0)
+    if(index % 2 == 0)
     {
         console.log(index)
     }
-}
+};

@@ -32,10 +32,4 @@ Données de sortie :
 13
 15
 
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min
-
 

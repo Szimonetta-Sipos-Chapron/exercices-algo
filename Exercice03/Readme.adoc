@@ -21,9 +21,3 @@ Données d'entrée :
 Données de sortie :
 
 Pair
-
-== Attendus
-
-* *Essentiel* : 1h 
-* *Attendu* : 15 min
-* *Avancé* : 5 min

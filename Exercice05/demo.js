@@ -1,4 +1,4 @@
-const dayNumber = Number(prompt("Ecrivez un nombre entre 1 et 7"));
+const dayNumber = Number(prompt("Ecrivez un numéro de jour de la semaine (entre 1 et 7) : "));
 
 switch (dayNumber) {
     case 1 :
@@ -23,5 +23,5 @@ switch (dayNumber) {
         console.log("Dimanche");
         break;
     default :
-        console.log("Vous n'avez pas saisi un nombre entre 1 et 7 !")
-}
+        console.log("Vous n'avez pas saisi un numéro entre 1 et 7 !")
+};
