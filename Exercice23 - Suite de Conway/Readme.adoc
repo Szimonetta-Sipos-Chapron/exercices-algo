@@ -1,4 +1,4 @@
-== Exercice 13 : Suite logique (FACULTATIF)
+== Exercice 13 : Suite logique
 
 == Niveau 
 
@@ -37,12 +37,4 @@ Difficile
 ?
 ?
 ?
-
-== Attendus
-
-* *Essentiel* : 8 h 
-* *Attendu* : 1 h
-* *Avancé* : 20 min
-
-== Correction
 

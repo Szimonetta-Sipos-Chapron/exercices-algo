@@ -12,10 +12,10 @@ function findTheBiggest(value1, value2)
     return result
 };
 
-const value1 = Number(prompt("Saisissez le premier nombre : "));
+const userValue1 = Number(prompt("Saisissez le premier nombre : "));
 
-const value2 = Number(prompt("Saisissez le second nombre : "));
+const userValue2 = Number(prompt("Saisissez le second nombre : "));
 
-const functionResult = findTheBiggest(value1,value2);
+const functionResult = findTheBiggest(userValue1,userValue2);
 
 alert("Le plus grand nombre est : " + functionResult);

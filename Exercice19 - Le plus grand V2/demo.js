@@ -18,10 +18,10 @@ function findTheBiggestV2(value1, value2)
     return result
 }
 
-const value1 = Number(prompt("Saisissez le premier nombre : "))
+const userValue1 = Number(prompt("Saisissez le premier nombre : "));
 
-const value2 = Number(prompt("Saisissez le second nombre : "))
+const userValue2 = Number(prompt("Saisissez le second nombre : "));
 
-const functionResultV2 = findTheBiggestV2(value1,value2)
+const functionResultV2 = findTheBiggestV2(userValue1,userValue2);
 
-alert(functionResultV2)
+console.log(functionResultV2);

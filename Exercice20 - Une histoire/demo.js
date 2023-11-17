@@ -6,6 +6,6 @@ function storyTime(name,number)
 const monsterName = String(prompt("Saisissez un nom : "));
 const childNumber = Number(prompt("Saisissez un nombre : "));
 
-const story = storyTime(monsterName, childNumber);
+const userStory = storyTime(monsterName, childNumber);
 
-alert(story);
+alert(userStory);

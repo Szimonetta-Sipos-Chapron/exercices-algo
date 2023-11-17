@@ -1,0 +1,33 @@
+= Exercice 25 : n entier inversé avec While
+
+== Description
+
+Écrivez un programme pour afficher tous les nombres entiers en sens inverse de n à 1 en utilisant la boucle while.
+
+n etant un parametre d'entrée de la fonction
+
+Testez la fonction.
+
+== Prérequis
+
+* Les variables
+* Les conditionnelles
+* La fonction prompt
+* Les fonctions
+* La boucle for
+
+== Déroulement
+
+Données d'entrée :
+
+5
+
+Données de sortie :
+
+5
+4
+3
+2
+1
+
+

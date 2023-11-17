@@ -1,0 +1,14 @@
+= Exercice 22 : Des tableaux et des villes
+
+== Description
+
+Créez un tableau qui contient le nom de 5 villes.
+
+Affichez ces cinq villes dans les logs en utilisant les index de chaque element.
+
+== Prérequis
+
+Avoir des connaissances sur :
+
+* Les variables
+* Les tableaux
